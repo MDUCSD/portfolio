@@ -1,0 +1,244 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#title {
+  background-color: black;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h3 {
+  color:rgb(149, 149, 149);
+}
+
+.carousel-item {
+  color:#fff ;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.jumbotron {
+  background-color: rgb(25, 25, 25);
+  text-align: center;
+}
+
+p {
+  color:rgb(149, 149, 149);
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(255, 91, 91);
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  align-content: right;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(255, 91, 91)
+}
+
+.title-image {
+}
+
+#aboutme {
+  padding: 7% 15%;
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: rgb(255, 91, 91);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: white;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: black;
+}
+
+
+#carousel {
+  text-align: center;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.card-body {
+  color: rgb(197, 197, 197);
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#cta {
+  background-color:black;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Roboto Mono', bold;
+  line-height: 1.5;
+}
+
+.cta-heading:hover {
+  color: white;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: rgb(255, 91, 91);;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #000;
+}
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    transform: rotate(0);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+      flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+/*   padding: 2em 0em; */
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect01 {
+  color: white;
+  border: 4px solid #000;
+  box-shadow:0px 0px 0px 1px #000 inset;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.effect01:hover {
+  border: 4px solid #666;
+  background-color: rgb(255, 91, 91);
+  box-shadow:0px 0px 0px 4px rgb(255, 91, 91) inset;
+}
+
+/*btn_text*/
+.effect01 span {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.effect01:hover span{
+  letter-spacing: 0.13em;
+  color: #333;
+}
+
+/*highlight*/
+.effect01:after {
+  background: rgb(255, 91, 91);
+  border: 0px solid #000;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+  z-index: 1;
+}
+.effect01:hover:after {
+  background: rgb(255, 91, 91);
+  border: 20px solid #000;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
