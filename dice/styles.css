@@ -1,0 +1,64 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.icon {
+  color: rgb(255, 44, 44);
+  margin-bottom: .5rem;
+}
+
+body {
+  background-color: #383944;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  background-color: #282930;
+  text-shadow: 4px 0 #ffd685;
+  border-color: #000000;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #f6b229;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #f6b229;
+}
+
+p {
+  font-size: 1rem;
+  color: #ffc145;
+}
+
+img {
+  width: 80%;
+  background-color: #000000;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.btn {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #ffbb46;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}

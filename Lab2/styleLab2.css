@@ -1,0 +1,85 @@
+#schedule { 
+  border: 10px solid rgb(221, 0, 0);
+  padding: 10px;
+  color: gold;
+  background-color: rgb(21, 72, 107);
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+thead {
+  text-align:middle;
+  font-style: normal;
+  font-size: large;
+  background-color: rgba(255, 217, 0, 0.832);
+  padding: 10px;
+}
+
+#mon {
+  background-color: rgba(255, 217, 0, 0.832);
+}
+#tue {
+  background-color: rgba(255, 217, 0, 0.832);
+}
+#wed { 
+  background-color: rgba(255, 217, 0, 0.832);
+}
+#thu {
+  background-color: rgba(255, 217, 0, 0.832);
+}
+#fri {
+  background-color: rgba(255, 217, 0, 0.832);
+}
+
+body {
+  text-align: center;
+  background-color: rgba(255, 244, 230, 0.832);
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: larger;
+  cursor:crosshair;
+  background-color: rgb(21, 72, 107);
+  color:rgba(255, 217, 0, 0.832);
+  font-style:oblique
+}
+
+a:link {
+  font-size: larger;
+  font-style:oblique;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:active {
+  background-color: rgb(221, 0, 0);
+}
+
+dl {
+  text-align: left;
+}
+
+dt {
+  font-size: x;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
+dd { 
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+
